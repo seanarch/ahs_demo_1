@@ -10,10 +10,12 @@ import Other from './pages/other';
 import Endvisit from './pages/endvisit';
 
 
+
 function App() {
   return (
     <Router>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
